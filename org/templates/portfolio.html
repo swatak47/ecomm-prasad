@@ -1,0 +1,498 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+
+
+
+<head>
+  <meta charset="utf-8">
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+
+  <title>Portfolio - Sailor Bootstrap Template</title>
+  <meta content="" name="description">
+  <meta content="" name="keywords">
+
+  <!-- Favicons -->
+  <link href="assets/img/favicon.png" rel="icon">
+  <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon">
+
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Raleway:300,300i,400,400i,500,500i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i" rel="stylesheet">
+
+  <!-- Vendor CSS Files -->
+  <link href="{% static "assets/vendor/animate.css/animate.min.css" %}" rel="stylesheet">
+  <link href="{% static "assets/vendor/bootstrap/css/bootstrap.min.css" %}" rel="stylesheet">
+  <link href="{% static "assets/vendor/bootstrap-icons/bootstrap-icons.css" %}"  rel="stylesheet">
+  <link href="{% static "assets/vendor/boxicons/css/boxicons.min.css" %}" rel="stylesheet">
+  <link href="{% static "assets/vendor/glightbox/css/glightbox.min.css" %}"  rel="stylesheet">
+  <link href="{% static "assets/vendor/remixicon/remixicon.css" %}" rel="stylesheet">
+  <link href="{% static "assets/vendor/swiper/swiper-bundle.min.css" %}" rel="stylesheet">
+  <link rel="stylesheet" href="{% static "duka/assets/css/preloader.css" %}">
+      <link rel="stylesheet" href="{% static "duka/assets/css/bootstrap.css"  %}">
+      <link rel="stylesheet" href="{% static "duka/assets/css/meanmenu.css" %}">
+      <link rel="stylesheet" href="{% static "duka/assets/css/animate.css" %}">
+      <link rel="stylesheet" href="{% static "duka/assets/css/owl-carousel.css" %}">
+      <link rel="stylesheet" href="{% static "duka/assets/css/swiper-bundle.css" %}">
+      <link rel="stylesheet" href="{% static "duka/assets/css/backtotop.css" %}">
+      <link rel="stylesheet" href="{% static "duka/assets/css/magnific-popup.css" %}">
+      <link rel="stylesheet" href="{% static "duka/assets/css/nice-select.css" %}">
+      <link rel="stylesheet" href="{% static "duka/assets/flaticon/flaticon.css" %}">
+      <link rel="stylesheet" href="{% static "duka/assets/css/font-awesome-pro.css" %}">
+      <link rel="stylesheet" href="{% static "duka/assets/css/default.css" %}">
+      <link rel="stylesheet" href="{% static "duka/assets/css/style.css" %}">
+ 
+
+  <!-- Template Main CSS File -->
+  <link href="{% static "duka/assets/css/style.css" %}" rel="stylesheet">
+
+  <!-- =======================================================
+  * Template Name: Sailor
+  * Updated: Mar 10 2023 with Bootstrap v5.2.3
+  * Template URL: https://bootstrapmade.com/sailor-free-bootstrap-theme/
+  * Author: BootstrapMade.com
+  * License: https://bootstrapmade.com/license/
+  ======================================================== -->
+</head>
+
+<body>
+  {% include "header.html" %}
+
+
+
+  <section id="hero">
+    <div id="heroCarousel" data-bs-interval="5000" class="carousel slide carousel-fade" data-bs-ride="carousel">
+
+      <ol class="carousel-indicators" id="hero-carousel-indicators"></ol>
+
+      <div class="carousel-inner" role="listbox">
+
+        <!-- Slide 1 -->
+        <div class="carousel-item active" style="background-image: url({% static "assets/img/slide/slide-4.jpg" %})">
+          <div class="carousel-container">
+            <div class="container">
+              <h2 class="animate__animated animate__fadeInDown">Organic  <span>vegetables</span></h2>
+              <p class="animate__animated animate__fadeInUp"> </p>
+              <a href="#about" class="btn-get-started animate__animated animate__fadeInUp scrollto">Read More</a>
+            </div>
+          </div>
+        </div>
+
+        <!-- Slide 2 -->
+        <div class="" style="background-image: url({% static "assets/img/slide/slide-2.jpg" %})">
+          <div class="carousel-container">
+            <div class="container">
+              <h2 class="animate__animated animate__fadeInDown"></h2>
+              <p class="animate__animated animate__fadeInUp".</p>
+             
+            </div>
+          </div>
+        </div>
+
+        <!-- Slide 3 -->
+        <div class="carousel-item" style="background-image: url({% static "assets/img/slide/slide-3.jpg" %})">
+          <div class="carousel-container">
+            <div class="container">
+              <h2 class="animate__animated animate__fadeInDown"></h2>
+              <p class="animate__animated animate__fadeInUp">
+            </div>
+          </div>
+        </div>
+
+      </div>
+
+      <a class="carousel-control-prev" href="#heroCarousel" role="button" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon bi bi-chevron-left" aria-hidden="true"></span>
+      </a>
+
+      <a class="carousel-control-next" href="#heroCarousel" role="button" data-bs-slide="next">
+        <span class="carousel-control-next-icon bi bi-chevron-right" aria-hidden="true"></span>
+      </a>
+
+    </div>
+  </section><!-- End Hero -->
+
+
+ 
+
+ 
+  
+  <main id="main">
+
+
+    
+
+
+<div class="tab-content" id="productGridTabContent">
+    <div class="tab-pane fade  show active" id="FourCol" role="tabpanel" aria-labelledby="FourCol-tab">
+        <div class="tp-wrapper">
+            <div class="row g-0">
+                <div class="col-xl-3 col-lg-4 col-md-6 col-sm-6">
+                    <div class="product__item product__item-d">
+                        <div class="product__thumb fix">
+                            <div class="product-image w-img">
+                                <a href="product-details.html">
+                                    <img src="{% static "duka/assets/img/product/tom.jpg"  %}" alt="product" style="width:396px;height:396px;">
+                                </a>
+                            </div>
+                            <div class="product-action">
+                                <a href="#" class="icon-box icon-box-1" data-bs-toggle="modal" data-bs-target="#productModalId">
+                                    <i class="fal fa-eye"></i>
+                                    <i class="fal fa-eye"></i>
+                                </a>
+                                <a href="#" class="icon-box icon-box-1">
+                                    <i class="fal fa-heart"></i>
+                                    <i class="fal fa-heart"></i>
+                                </a>
+                                <a href="#" class="icon-box icon-box-1">
+                                    <i class="fal fa-layer-group"></i>
+                                    <i class="fal fa-layer-group"></i>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="product__content-3">
+                            <h6><a href="product-details.html">Men Size Yellow Basketball Jerseys</a></h6>
+                            <div class="rating mb-5">
+                                <ul>
+                                    <li><a href="#"><i class="fal fa-star"></i></a></li>
+                                    <li><a href="#"><i class="fal fa-star"></i></a></li>
+                                    <li><a href="#"><i class="fal fa-star"></i></a></li>
+                                    <li><a href="#"><i class="fal fa-star"></i></a></li>
+                                    <li><a href="#"><i class="fal fa-star"></i></a></li>
+                                </ul>
+                                <span>(01 review)</span>
+                            </div>
+                            <div class="price mb-10">
+                                <span>$110-$150</span>
+                            </div>
+                        </div>
+                        <div class="product__add-cart-s text-center">
+                            <button type="button" class="cart-btn d-flex mb-10 align-items-center justify-content-center w-100">
+                            Add to Cart
+                            </button>
+                            <button type="button" class="wc-checkout d-flex align-items-center justify-content-center w-100" data-bs-toggle="modal" data-bs-target="#productModalId">
+                                Quick View
+                            </button>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-xl-3 col-lg-4 col-md-6 col-sm-6">
+                    <div class="product__item product__item-d">
+                        <div class="product__thumb fix">
+                            <div class="product-image w-img">
+                                <a href="product-details.html">
+                                    <img src="{% static "duka/assets/img/product/tp-3.jpg" %}" alt="product">
+                                </a>
+                            </div>
+                            <div class="product-action">
+                                <a href="#" class="icon-box icon-box-1" data-bs-toggle="modal" data-bs-target="#productModalId">
+                                    <i class="fal fa-eye"></i>
+                                    <i class="fal fa-eye"></i>
+                                </a>
+                                <a href="#" class="icon-box icon-box-1">
+                                    <i class="fal fa-heart"></i>
+                                    <i class="fal fa-heart"></i>
+                                </a>
+                                <a href="#" class="icon-box icon-box-1">
+                                    <i class="fal fa-layer-group"></i>
+                                    <i class="fal fa-layer-group"></i>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="product__content-3">
+                            <h6><a href="product-details.html">Xbox Wireless Game Controller Pink</a></h6>
+                            <div class="rating mb-5">
+                                <ul>
+                                    <li><a href="#"><i class="fal fa-star"></i></a></li>
+                                    <li><a href="#"><i class="fal fa-star"></i></a></li>
+                                    <li><a href="#"><i class="fal fa-star"></i></a></li>
+                                    <li><a href="#"><i class="fal fa-star"></i></a></li>
+                                    <li><a href="#"><i class="fal fa-star"></i></a></li>
+                                </ul>
+                                <span>(01 review)</span>
+                            </div>
+                            <div class="price mb-10">
+                                <span>$130-$150</span>
+                            </div>
+                        </div>
+                        <div class="product__add-cart-s text-center">
+                            <button type="button" class="cart-btn d-flex mb-10 align-items-center justify-content-center w-100">
+                            Add to Cart
+                            </button>
+                            <button type="button" class="wc-checkout d-flex align-items-center justify-content-center w-100" data-bs-toggle="modal" data-bs-target="#productModalId">
+                                Quick View
+                            </button>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-xl-3 col-lg-4 col-md-6 col-sm-6">
+                    <div class="product__item product__item-d">
+                        <div class="product__thumb fix">
+                            <div class="product-image w-img">
+                                <a href="product-details.html">
+                                    <img src="{% static "duka/assets/img/product/tp-4.jpg" %}"" alt="product">
+                                </a>
+                            </div>
+                            <div class="product-action">
+                                <a href="#" class="icon-box icon-box-1" data-bs-toggle="modal" data-bs-target="#productModalId">
+                                    <i class="fal fa-eye"></i>
+                                    <i class="fal fa-eye"></i>
+                                </a>
+                                <a href="#" class="icon-box icon-box-1">
+                                    <i class="fal fa-heart"></i>
+                                    <i class="fal fa-heart"></i>
+                                </a>
+                                <a href="#" class="icon-box icon-box-1">
+                                    <i class="fal fa-layer-group"></i>
+                                    <i class="fal fa-layer-group"></i>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="product__content-3">
+                            <h6><a href="product-details.html">Wireless Bluetooth Over-Ear Headphones</a></h6>
+                            <div class="rating mb-5">
+                                <ul>
+                                    <li><a href="#"><i class="fal fa-star"></i></a></li>
+                                    <li><a href="#"><i class="fal fa-star"></i></a></li>
+                                    <li><a href="#"><i class="fal fa-star"></i></a></li>
+                                    <li><a href="#"><i class="fal fa-star"></i></a></li>
+                                    <li><a href="#"><i class="fal fa-star"></i></a></li>
+                                </ul>
+                                <span>(01 review)</span>
+                            </div>
+                            <div class="price mb-10">
+                                <span>$135-$150</span>
+                            </div>
+                        </div>
+                        <div class="product__add-cart-s text-center">
+                            <button type="button" class="cart-btn d-flex mb-10 align-items-center justify-content-center w-100">
+                            Add to Cart
+                            </button>
+                            <button type="button" class="wc-checkout d-flex align-items-center justify-content-center w-100" data-bs-toggle="modal" data-bs-target="#productModalId">
+                                Quick View
+                            </button>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-xl-3 col-lg-4 col-md-6 col-sm-6">
+                    <div class="product__item product__item-d">
+                        <div class="product__thumb fix">
+                            <div class="product-image w-img">
+                                <a href="product-details.html">
+                                    <img src="{% static "duka/assets/img/product/tp-5.jpg" %}"alt="product">
+                                </a>
+                            </div>
+                            <div class="product-action">
+                                <a href="#" class="icon-box icon-box-1" data-bs-toggle="modal" data-bs-target="#productModalId">
+                                    <i class="fal fa-eye"></i>
+                                    <i class="fal fa-eye"></i>
+                                </a>
+                                <a href="#" class="icon-box icon-box-1">
+                                    <i class="fal fa-heart"></i>
+                                    <i class="fal fa-heart"></i>
+                                </a>
+                                <a href="#" class="icon-box icon-box-1">
+                                    <i class="fal fa-layer-group"></i>
+                                    <i class="fal fa-layer-group"></i>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="product__content-3">
+                            <h6><a href="product-details.html">Solo3 Wireless On-Ear Headphones</a></h6>
+                            <div class="rating mb-5">
+                                <ul>
+                                    <li><a href="#"><i class="fal fa-star"></i></a></li>
+                                    <li><a href="#"><i class="fal fa-star"></i></a></li>
+                                    <li><a href="#"><i class="fal fa-star"></i></a></li>
+                                    <li><a href="#"><i class="fal fa-star"></i></a></li>
+                                    <li><a href="#"><i class="fal fa-star"></i></a></li>
+                                </ul>
+                                <span>(01 review)</span>
+                            </div>
+                            <div class="price mb-10">
+                                <span>$140-$150</span>
+                            </div>
+                        </div>
+                        <div class="product__add-cart-s text-center">
+                            <button type="button" class="cart-btn d-flex mb-10 align-items-center justify-content-center w-100">
+                            Add to Cart
+                            </button>
+                            <button type="button" class="wc-checkout d-flex align-items-center justify-content-center w-100" data-bs-toggle="modal" data-bs-target="#productModalId">
+                                Quick View
+                            </button>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-xl-3 col-lg-4 col-md-6 col-sm-6">
+                    <div class="product__item product__item-d">
+                        <div class="product__thumb fix">
+                            <div class="product-image w-img">
+                                <a href="product-details.html">
+                                    <img src="{% static "duka/assets/img/product/tp-6.jpg" %}" alt="product">
+                                </a>
+                            </div>
+                            <div class="product-action">
+                                <a href="#" class="icon-box icon-box-1" data-bs-toggle="modal" data-bs-target="#productModalId">
+                                    <i class="fal fa-eye"></i>
+                                    <i class="fal fa-eye"></i>
+                                </a>
+                                <a href="#" class="icon-box icon-box-1">
+                                    <i class="fal fa-heart"></i>
+                                    <i class="fal fa-heart"></i>
+                                </a>
+                                <a href="#" class="icon-box icon-box-1">
+                                    <i class="fal fa-layer-group"></i>
+                                    <i class="fal fa-layer-group"></i>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="product__content-3">
+                            <h6><a href="product-details.html">Vifa Bluetooth Portable Wireless Speaker</a></h6>
+                            <div class="rating mb-5">
+                                <ul>
+                                    <li><a href="#"><i class="fal fa-star"></i></a></li>
+                                    <li><a href="#"><i class="fal fa-star"></i></a></li>
+                                    <li><a href="#"><i class="fal fa-star"></i></a></li>
+                                    <li><a href="#"><i class="fal fa-star"></i></a></li>
+                                    <li><a href="#"><i class="fal fa-star"></i></a></li>
+                                </ul>
+                                <span>(01 review)</span>
+                            </div>
+                            <div class="price mb-10">
+                                <span>$140-$200</span>
+                            </div>
+                        </div>
+                        <div class="product__add-cart-s text-center">
+                            <button type="button" class="cart-btn d-flex mb-10 align-items-center justify-content-center w-100">
+                            Add to Cart
+                            </button>
+                            <button type="button" class="wc-checkout d-flex align-items-center justify-content-center w-100" data-bs-toggle="modal" data-bs-target="#productModalId">
+                                Quick View
+                            </button>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-xl-3 col-lg-4 col-md-6 col-sm-6">
+                    <div class="product__item product__item-d">
+                        <div class="product__thumb fix">
+                            <div class="product-image w-img">
+                                <a href="product-details.html">
+                                    <img src="{% static "duka/assets/img/product/tp-7.jpg" %}"alt="product">
+                                </a>
+                            </div>
+                            <div class="product-action">
+                                <a href="#" class="icon-box icon-box-1" data-bs-toggle="modal" data-bs-target="#productModalId">
+                                    <i class="fal fa-eye"></i>
+                                    <i class="fal fa-eye"></i>
+                                </a>
+                                <a href="#" class="icon-box icon-box-1">
+                                    <i class="fal fa-heart"></i>
+                                    <i class="fal fa-heart"></i>
+                                </a>
+                                <a href="#" class="icon-box icon-box-1">
+                                    <i class="fal fa-layer-group"></i>
+                                    <i class="fal fa-layer-group"></i>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="product__content-3">
+                            <h6><a href="product-details.html">APPO R11s 64GB Dual 20MP Cameras</a></h6>
+                            <div class="rating mb-5">
+                                <ul>
+                                    <li><a href="#"><i class="fal fa-star"></i></a></li>
+                                    <li><a href="#"><i class="fal fa-star"></i></a></li>
+                                    <li><a href="#"><i class="fal fa-star"></i></a></li>
+                                    <li><a href="#"><i class="fal fa-star"></i></a></li>
+                                    <li><a href="#"><i class="fal fa-star"></i></a></li>
+                                </ul>
+                                <span>(01 review)</span>
+                            </div>
+                            <div class="price mb-10">
+                                <span>$100-$120</span>
+                            </div>
+                        </div>
+                        <div class="product__add-cart-s text-center">
+                            <button type="button" class="cart-btn d-flex mb-10 align-items-center justify-content-center w-100">
+                            Add to Cart
+                            </button>
+                            <button type="button" class="wc-checkout d-flex align-items-center justify-content-center w-100" data-bs-toggle="modal" data-bs-target="#productModalId">
+                                Quick View
+                            </button>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-xl-3 col-lg-4 col-md-6 col-sm-6">
+                    <div class="product__item product__item-d">
+                        <div class="product__thumb fix">
+                            <div class="product-image w-img">
+                                <a href="product-details.html">
+                                    <img src="{% static "duka/assets/img/product/tp-10.jpg" %}" alt="product">
+                                </a>
+                            </div>
+                            <div class="product-action">
+                                <a href="#" class="icon-box icon-box-1" data-bs-toggle="modal" data-bs-target="#productModalId">
+                                    <i class="fal fa-eye"></i>
+                                    <i class="fal fa-eye"></i>
+                                </a>
+                                <a href="#" class="icon-box icon-box-1">
+                                    <i class="fal fa-heart"></i>
+                                    <i class="fal fa-heart"></i>
+                                </a>
+                                <a href="#" class="icon-box icon-box-1">
+                                    <i class="fal fa-layer-group"></i>
+                                    <i class="fal fa-layer-group"></i>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="product__content-3">
+                            <h6><a href="product-details.html">G951s Pink Stereo Gaming Headset</a></h6>
+                            <div class="rating mb-5">
+                                <ul>
+                                    <li><a href="#"><i class="fal fa-star"></i></a></li>
+                                    <li><a href="#"><i class="fal fa-star"></i></a></li>
+                                    <li><a href="#"><i class="fal fa-star"></i></a></li>
+                                    <li><a href="#"><i class="fal fa-star"></i></a></li>
+                                    <li><a href="#"><i class="fal fa-star"></i></a></li>
+                                </ul>
+                                <span>(01 review)</span>
+                            </div>
+                            <div class="price mb-10">
+                                <span>$145-$150</span>
+                            </div>
+                        </div>
+                        <div class="product__add-cart-s text-center">
+                            <button type="button" class="cart-btn d-flex mb-10 align-items-center justify-content-center w-100">
+                            Add to Cart
+                            </button>
+                            <button type="button" class="wc-checkout d-flex align-items-center justify-content-center w-100" data-bs-toggle="modal" data-bs-target="#productModalId">
+                                Quick View
+                            </button>
+                        </div>
+                    </div>
+                </div>
+              </main><!-- End #main -->
+
+              {% include 'footer.html' %}
+
+     <!-- JS here -->
+     <script src="{% static "duka/assets/js/vendor/jquery.js" %}"></script>    
+     <script src="{% static "duka/assets/js/vendor/waypoints.js" %}"></script>
+     <script src="{% static "duka/assets/js/bootstrap-bundle.js" %}"></script>
+     <script src="{% static "duka/assets/js/meanmenu.js" %}"></script>
+     <script src="{% static "duka/assets/js/swiper-bundle.js" %}"></script>
+     <script src="{% static "duka/assets/js/tweenmax.js" %}"></script>
+     <script src="{% static "duka/assets/js/owl-carousel.js" %}"></script>
+     <script src="{% static "duka/assets/js/magnific-popup.js" %}"></script>
+     <script src="{% static "duka/assets/js/parallax.js" %}"></script>
+     <script src="{% static "duka/assets/js/backtotop.js" %}"></script>
+     <script src="{% static "duka/assets/js/nice-select.js" %}"></script>
+     <script src="{% static "duka/assets/js/countdown.min.js" %}"></script>
+     <script src="{% static "duka/assets/js/counterup.js" %}"></script>
+     <script src="{% static "duka/assets/js/wow.js" %}"></script>
+     <script src="{% static "duka/assets/js/isotope-pkgd.js" %}"></script>
+     <script src="{% static "duka/assets/js/imagesloaded-pkgd.js" %}"></script>
+     <script src="{% static "duka/assets/js/ajax-form.js" %}"></script>
+     <script src="{% static "duka/assets/js/main.js" %}"></script>
+
+</body>
+
+</html>
